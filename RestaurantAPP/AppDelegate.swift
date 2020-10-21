@@ -4,19 +4,24 @@
 //
 //  Created by Hany Karam on 10/4/20.
 //  Copyright © 2020 Hany Karam. All rights reserved.
-//
+//algazzar.abdelrahman@gmail.com
 
 import UIKit
 import CoreData
+import IQKeyboardManager
 
+@available(iOS 13.0, *)
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
+        IQKeyboardManager.shared().isEnabled = true
+        IQKeyboardManager.shared().isEnableAutoToolbar = true
+        IQKeyboardManager.shared().toolbarDoneBarButtonItemText = "التالي"
+        IQKeyboardManager.shared().shouldResignOnTouchOutside = true
+         return true
     }
 
     // MARK: UISceneSession Lifecycle

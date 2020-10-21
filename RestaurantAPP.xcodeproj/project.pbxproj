@@ -3,13 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D51DE13C1F98E90C9278C5CC /* Pods_RestaurantAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052BE703A6BB5766D3D2039B /* Pods_RestaurantAPP.framework */; };
+		D714156A25391DDE00E12FF4 /* CatrogyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D714156925391DDE00E12FF4 /* CatrogyModel.swift */; };
+		D714156C2539235700E12FF4 /* MenuHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D714156B2539235700E12FF4 /* MenuHomeVC.swift */; };
+		D714156E253925B200E12FF4 /* MenuHomePresnter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D714156D253925B200E12FF4 /* MenuHomePresnter.swift */; };
+		D714157025392D3300E12FF4 /* CatrogyCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D714156F25392D3300E12FF4 /* CatrogyCollection.swift */; };
+		D714157225393E7900E12FF4 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D714157125393E7900E12FF4 /* ProductModel.swift */; };
+		D71DF1A5253327910027199C /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71DF1A4253327910027199C /* RequestManager.swift */; };
+		D71DF1A72533281C0027199C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71DF1A62533281C0027199C /* BaseViewController.swift */; };
+		D71DF1A925332C560027199C /* LoginPresnter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71DF1A825332C560027199C /* LoginPresnter.swift */; };
+		D71DF1AB25332CAA0027199C /* BasePrsenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71DF1AA25332CAA0027199C /* BasePrsenter.swift */; };
+		D71DF1AD25332CCF0027199C /* BasePresnterProtco;.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71DF1AC25332CCF0027199C /* BasePresnterProtco;.swift */; };
+		D71DF1AF25332D7F0027199C /* Exstestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71DF1AE25332D7F0027199C /* Exstestion.swift */; };
+		D71DF1B12533359F0027199C /* StoaryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71DF1B02533359F0027199C /* StoaryBoard.swift */; };
+		D71DF1B325333BD80027199C /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71DF1B225333BD80027199C /* RegisterVC.swift */; };
+		D74FEA952539DC220056FB7D /* AddCartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74FEA942539DC220056FB7D /* AddCartModel.swift */; };
+		D74FEA982539EB620056FB7D /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74FEA972539EB620056FB7D /* DetailsVC.swift */; };
+		D74FEA9B253A00880056FB7D /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74FEA9A253A00880056FB7D /* CartVC.swift */; };
+		D74FEAA025407D220056FB7D /* ShowCartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74FEA9F25407D220056FB7D /* ShowCartModel.swift */; };
+		D74FEAA225407E860056FB7D /* CartPresnter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74FEAA125407E860056FB7D /* CartPresnter.swift */; };
+		D74FEAA5254082A20056FB7D /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74FEAA3254082A20056FB7D /* CartTableViewCell.swift */; };
+		D74FEAA6254082A20056FB7D /* CartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D74FEAA4254082A20056FB7D /* CartTableViewCell.xib */; };
+		D7520458252A1BC900EC18B1 /* DesignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7520457252A1BC900EC18B1 /* DesignButton.swift */; };
+		D752045A252A1D3C00EC18B1 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7520459252A1D3C00EC18B1 /* LoginModel.swift */; };
+		D7520460252A1FB300EC18B1 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D752045F252A1FB300EC18B1 /* TargetType.swift */; };
+		D7520462252A1FC400EC18B1 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7520461252A1FC400EC18B1 /* APIClient.swift */; };
+		D7520464252A1FDB00EC18B1 /* ErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7520463252A1FDB00EC18B1 /* ErrorType.swift */; };
+		D7520466252A1FF400EC18B1 /* AuthAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7520465252A1FF400EC18B1 /* AuthAPI.swift */; };
+		D7520468252A203800EC18B1 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7520467252A203800EC18B1 /* API.swift */; };
+		D764D4AB25346C82004A5C32 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D764D4AA25346C82004A5C32 /* HomeVC.swift */; };
+		D764D4AE25347A6A004A5C32 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D764D4AD25347A6A004A5C32 /* NetworkHelper.swift */; };
+		D764D4B025347BA0004A5C32 /* HomePresnster.swift in Sources */ = {isa = PBXBuildFile; fileRef = D764D4AF25347BA0004A5C32 /* HomePresnster.swift */; };
+		D764D4B225347F29004A5C32 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D764D4B125347F29004A5C32 /* DataModel.swift */; };
+		D7ECC1242534F33700F50E10 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ECC1222534F33700F50E10 /* HomeTableViewCell.swift */; };
+		D7ECC1252534F33700F50E10 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7ECC1232534F33700F50E10 /* HomeTableViewCell.xib */; };
+		D7ECC1272534FA1C00F50E10 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ECC1262534FA1C00F50E10 /* View.swift */; };
 		D7FCB2C62529CAE4005D93A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FCB2C52529CAE4005D93A9 /* AppDelegate.swift */; };
 		D7FCB2C82529CAE4005D93A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FCB2C72529CAE4005D93A9 /* SceneDelegate.swift */; };
-		D7FCB2CA2529CAE4005D93A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FCB2C92529CAE4005D93A9 /* ViewController.swift */; };
+		D7FCB2CA2529CAE4005D93A9 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FCB2C92529CAE4005D93A9 /* LoginVC.swift */; };
 		D7FCB2CD2529CAE4005D93A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FCB2CB2529CAE4005D93A9 /* Main.storyboard */; };
 		D7FCB2D02529CAE4005D93A9 /* RestaurantAPP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7FCB2CE2529CAE4005D93A9 /* RestaurantAPP.xcdatamodeld */; };
 		D7FCB2D22529CAEA005D93A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7FCB2D12529CAEA005D93A9 /* Assets.xcassets */; };
@@ -17,15 +52,52 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		052BE703A6BB5766D3D2039B /* Pods_RestaurantAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestaurantAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EBDD2D03C51037F4BDE7F4 /* Pods-RestaurantAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantAPP.release.xcconfig"; path = "Target Support Files/Pods-RestaurantAPP/Pods-RestaurantAPP.release.xcconfig"; sourceTree = "<group>"; };
+		D714156925391DDE00E12FF4 /* CatrogyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatrogyModel.swift; sourceTree = "<group>"; };
+		D714156B2539235700E12FF4 /* MenuHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHomeVC.swift; sourceTree = "<group>"; };
+		D714156D253925B200E12FF4 /* MenuHomePresnter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHomePresnter.swift; sourceTree = "<group>"; };
+		D714156F25392D3300E12FF4 /* CatrogyCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatrogyCollection.swift; sourceTree = "<group>"; };
+		D714157125393E7900E12FF4 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		D71DF1A4253327910027199C /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		D71DF1A62533281C0027199C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D71DF1A825332C560027199C /* LoginPresnter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresnter.swift; sourceTree = "<group>"; };
+		D71DF1AA25332CAA0027199C /* BasePrsenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePrsenter.swift; sourceTree = "<group>"; };
+		D71DF1AC25332CCF0027199C /* BasePresnterProtco;.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BasePresnterProtco;.swift"; sourceTree = "<group>"; };
+		D71DF1AE25332D7F0027199C /* Exstestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exstestion.swift; sourceTree = "<group>"; };
+		D71DF1B02533359F0027199C /* StoaryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoaryBoard.swift; sourceTree = "<group>"; };
+		D71DF1B225333BD80027199C /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		D74FEA942539DC220056FB7D /* AddCartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCartModel.swift; sourceTree = "<group>"; };
+		D74FEA972539EB620056FB7D /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		D74FEA9A253A00880056FB7D /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
+		D74FEA9F25407D220056FB7D /* ShowCartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCartModel.swift; sourceTree = "<group>"; };
+		D74FEAA125407E860056FB7D /* CartPresnter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartPresnter.swift; sourceTree = "<group>"; };
+		D74FEAA3254082A20056FB7D /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		D74FEAA4254082A20056FB7D /* CartTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartTableViewCell.xib; sourceTree = "<group>"; };
+		D7520457252A1BC900EC18B1 /* DesignButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignButton.swift; sourceTree = "<group>"; };
+		D7520459252A1D3C00EC18B1 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		D752045F252A1FB300EC18B1 /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		D7520461252A1FC400EC18B1 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		D7520463252A1FDB00EC18B1 /* ErrorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorType.swift; sourceTree = "<group>"; };
+		D7520465252A1FF400EC18B1 /* AuthAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAPI.swift; sourceTree = "<group>"; };
+		D7520467252A203800EC18B1 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		D764D4AA25346C82004A5C32 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		D764D4AD25347A6A004A5C32 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		D764D4AF25347BA0004A5C32 /* HomePresnster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresnster.swift; sourceTree = "<group>"; };
+		D764D4B125347F29004A5C32 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		D7ECC1222534F33700F50E10 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		D7ECC1232534F33700F50E10 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		D7ECC1262534FA1C00F50E10 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		D7FCB2C22529CAE4005D93A9 /* RestaurantAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FCB2C52529CAE4005D93A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7FCB2C72529CAE4005D93A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D7FCB2C92529CAE4005D93A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7FCB2C92529CAE4005D93A9 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D7FCB2CC2529CAE4005D93A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7FCB2CF2529CAE4005D93A9 /* RestaurantAPP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RestaurantAPP.xcdatamodel; sourceTree = "<group>"; };
 		D7FCB2D12529CAEA005D93A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7FCB2D42529CAEA005D93A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7FCB2D62529CAEA005D93A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF56E0B4EC809F6F9167C65D /* Pods-RestaurantAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantAPP.debug.xcconfig"; path = "Target Support Files/Pods-RestaurantAPP/Pods-RestaurantAPP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +105,178 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D51DE13C1F98E90C9278C5CC /* Pods_RestaurantAPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C399C1A5CBB053CEB0FCD97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				052BE703A6BB5766D3D2039B /* Pods_RestaurantAPP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D71DF1A22533254D0027199C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D7FCB2C92529CAE4005D93A9 /* LoginVC.swift */,
+				D71DF1A825332C560027199C /* LoginPresnter.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D71DF1A32533255F0027199C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D752045F252A1FB300EC18B1 /* TargetType.swift */,
+				D7520461252A1FC400EC18B1 /* APIClient.swift */,
+				D7520463252A1FDB00EC18B1 /* ErrorType.swift */,
+				D7520465252A1FF400EC18B1 /* AuthAPI.swift */,
+				D71DF1A4253327910027199C /* RequestManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D71DF1B425334D6D0027199C /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				D71DF1B225333BD80027199C /* RegisterVC.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		D74FEA962539DCCD0056FB7D /* MenuHome */ = {
+			isa = PBXGroup;
+			children = (
+				D714156B2539235700E12FF4 /* MenuHomeVC.swift */,
+				D714156D253925B200E12FF4 /* MenuHomePresnter.swift */,
+			);
+			path = MenuHome;
+			sourceTree = "<group>";
+		};
+		D74FEA99253A00620056FB7D /* Deatils */ = {
+			isa = PBXGroup;
+			children = (
+				D74FEA972539EB620056FB7D /* DetailsVC.swift */,
+			);
+			path = Deatils;
+			sourceTree = "<group>";
+		};
+		D74FEA9C253A009A0056FB7D /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				D74FEA9A253A00880056FB7D /* CartVC.swift */,
+				D74FEAA125407E860056FB7D /* CartPresnter.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		D74FEA9D253A08DE0056FB7D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D7ECC1232534F33700F50E10 /* HomeTableViewCell.xib */,
+				D7ECC1222534F33700F50E10 /* HomeTableViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D74FEA9E253A08E80056FB7D /* Careogy */ = {
+			isa = PBXGroup;
+			children = (
+				D714156F25392D3300E12FF4 /* CatrogyCollection.swift */,
+			);
+			path = Careogy;
+			sourceTree = "<group>";
+		};
+		D74FEAA7254082AB0056FB7D /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				D74FEAA3254082A20056FB7D /* CartTableViewCell.swift */,
+				D74FEAA4254082A20056FB7D /* CartTableViewCell.xib */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		D752045B252A1DB800EC18B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7520459252A1D3C00EC18B1 /* LoginModel.swift */,
+				D764D4B125347F29004A5C32 /* DataModel.swift */,
+				D714156925391DDE00E12FF4 /* CatrogyModel.swift */,
+				D714157125393E7900E12FF4 /* ProductModel.swift */,
+				D74FEA942539DC220056FB7D /* AddCartModel.swift */,
+				D74FEA9F25407D220056FB7D /* ShowCartModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D752045C252A1DC600EC18B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D7FCB2CB2529CAE4005D93A9 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D752045D252A1DCD00EC18B1 /* Helper + Extenstion */ = {
+			isa = PBXGroup;
+			children = (
+				D7520457252A1BC900EC18B1 /* DesignButton.swift */,
+				D7520467252A203800EC18B1 /* API.swift */,
+				D71DF1A62533281C0027199C /* BaseViewController.swift */,
+				D71DF1AA25332CAA0027199C /* BasePrsenter.swift */,
+				D71DF1AC25332CCF0027199C /* BasePresnterProtco;.swift */,
+				D71DF1AE25332D7F0027199C /* Exstestion.swift */,
+				D764D4AD25347A6A004A5C32 /* NetworkHelper.swift */,
+				D7ECC1262534FA1C00F50E10 /* View.swift */,
+			);
+			path = "Helper + Extenstion";
+			sourceTree = "<group>";
+		};
+		D752045E252A1F2800EC18B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D71DF1A22533254D0027199C /* Login */,
+				D71DF1B425334D6D0027199C /* Register */,
+				D764D4AC25346C88004A5C32 /* Home */,
+				D74FEA962539DCCD0056FB7D /* MenuHome */,
+				D74FEA99253A00620056FB7D /* Deatils */,
+				D74FEA9C253A009A0056FB7D /* Cart */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D764D4AC25346C88004A5C32 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D764D4AA25346C82004A5C32 /* HomeVC.swift */,
+				D764D4AF25347BA0004A5C32 /* HomePresnster.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D7ECC1212534F31F00F50E10 /* Custome Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D74FEAA7254082AB0056FB7D /* Cart */,
+				D74FEA9D253A08DE0056FB7D /* Home */,
+				D74FEA9E253A08E80056FB7D /* Careogy */,
+				D7FCB2D32529CAEA005D93A9 /* LaunchScreen.storyboard */,
+			);
+			path = "Custome Cell";
+			sourceTree = "<group>";
+		};
 		D7FCB2B92529CAE4005D93A9 = {
 			isa = PBXGroup;
 			children = (
 				D7FCB2C42529CAE4005D93A9 /* RestaurantAPP */,
 				D7FCB2C32529CAE4005D93A9 /* Products */,
+				FB0E359C43EFFF2E67EFE9C1 /* Pods */,
+				5C399C1A5CBB053CEB0FCD97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +293,27 @@
 			children = (
 				D7FCB2C52529CAE4005D93A9 /* AppDelegate.swift */,
 				D7FCB2C72529CAE4005D93A9 /* SceneDelegate.swift */,
-				D7FCB2C92529CAE4005D93A9 /* ViewController.swift */,
-				D7FCB2CB2529CAE4005D93A9 /* Main.storyboard */,
-				D7FCB2D12529CAEA005D93A9 /* Assets.xcassets */,
-				D7FCB2D32529CAEA005D93A9 /* LaunchScreen.storyboard */,
+				D71DF1B02533359F0027199C /* StoaryBoard.swift */,
+				D752045E252A1F2800EC18B1 /* Controller */,
+				D752045C252A1DC600EC18B1 /* View */,
+				D752045B252A1DB800EC18B1 /* Model */,
+				D752045D252A1DCD00EC18B1 /* Helper + Extenstion */,
+				D7ECC1212534F31F00F50E10 /* Custome Cell */,
 				D7FCB2D62529CAEA005D93A9 /* Info.plist */,
 				D7FCB2CE2529CAE4005D93A9 /* RestaurantAPP.xcdatamodeld */,
+				D7FCB2D12529CAEA005D93A9 /* Assets.xcassets */,
+				D71DF1A32533255F0027199C /* Network */,
 			);
 			path = RestaurantAPP;
+			sourceTree = "<group>";
+		};
+		FB0E359C43EFFF2E67EFE9C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF56E0B4EC809F6F9167C65D /* Pods-RestaurantAPP.debug.xcconfig */,
+				17EBDD2D03C51037F4BDE7F4 /* Pods-RestaurantAPP.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +323,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7FCB2D92529CAEA005D93A9 /* Build configuration list for PBXNativeTarget "RestaurantAPP" */;
 			buildPhases = (
+				25ABBA3C1781E16FDD508C3A /* [CP] Check Pods Manifest.lock */,
 				D7FCB2BE2529CAE4005D93A9 /* Sources */,
 				D7FCB2BF2529CAE4005D93A9 /* Frameworks */,
 				D7FCB2C02529CAE4005D93A9 /* Resources */,
+				7F9F93157232C938FC4F0228 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,23 +376,99 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D74FEAA6254082A20056FB7D /* CartTableViewCell.xib in Resources */,
 				D7FCB2D52529CAEA005D93A9 /* LaunchScreen.storyboard in Resources */,
 				D7FCB2D22529CAEA005D93A9 /* Assets.xcassets in Resources */,
+				D7ECC1252534F33700F50E10 /* HomeTableViewCell.xib in Resources */,
 				D7FCB2CD2529CAE4005D93A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25ABBA3C1781E16FDD508C3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RestaurantAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F9F93157232C938FC4F0228 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RestaurantAPP/Pods-RestaurantAPP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RestaurantAPP/Pods-RestaurantAPP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RestaurantAPP/Pods-RestaurantAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D7FCB2BE2529CAE4005D93A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D71DF1A72533281C0027199C /* BaseViewController.swift in Sources */,
+				D764D4AB25346C82004A5C32 /* HomeVC.swift in Sources */,
+				D7520468252A203800EC18B1 /* API.swift in Sources */,
+				D74FEAA5254082A20056FB7D /* CartTableViewCell.swift in Sources */,
+				D714156A25391DDE00E12FF4 /* CatrogyModel.swift in Sources */,
+				D71DF1A925332C560027199C /* LoginPresnter.swift in Sources */,
 				D7FCB2D02529CAE4005D93A9 /* RestaurantAPP.xcdatamodeld in Sources */,
-				D7FCB2CA2529CAE4005D93A9 /* ViewController.swift in Sources */,
+				D714156E253925B200E12FF4 /* MenuHomePresnter.swift in Sources */,
+				D71DF1B12533359F0027199C /* StoaryBoard.swift in Sources */,
+				D7ECC1242534F33700F50E10 /* HomeTableViewCell.swift in Sources */,
+				D74FEA982539EB620056FB7D /* DetailsVC.swift in Sources */,
+				D74FEA952539DC220056FB7D /* AddCartModel.swift in Sources */,
+				D714157025392D3300E12FF4 /* CatrogyCollection.swift in Sources */,
+				D71DF1AD25332CCF0027199C /* BasePresnterProtco;.swift in Sources */,
+				D764D4AE25347A6A004A5C32 /* NetworkHelper.swift in Sources */,
+				D71DF1AF25332D7F0027199C /* Exstestion.swift in Sources */,
+				D7520464252A1FDB00EC18B1 /* ErrorType.swift in Sources */,
+				D71DF1A5253327910027199C /* RequestManager.swift in Sources */,
+				D752045A252A1D3C00EC18B1 /* LoginModel.swift in Sources */,
+				D71DF1B325333BD80027199C /* RegisterVC.swift in Sources */,
+				D7FCB2CA2529CAE4005D93A9 /* LoginVC.swift in Sources */,
+				D7520462252A1FC400EC18B1 /* APIClient.swift in Sources */,
+				D714157225393E7900E12FF4 /* ProductModel.swift in Sources */,
+				D71DF1AB25332CAA0027199C /* BasePrsenter.swift in Sources */,
+				D74FEA9B253A00880056FB7D /* CartVC.swift in Sources */,
 				D7FCB2C62529CAE4005D93A9 /* AppDelegate.swift in Sources */,
+				D764D4B025347BA0004A5C32 /* HomePresnster.swift in Sources */,
+				D74FEAA025407D220056FB7D /* ShowCartModel.swift in Sources */,
+				D7520466252A1FF400EC18B1 /* AuthAPI.swift in Sources */,
 				D7FCB2C82529CAE4005D93A9 /* SceneDelegate.swift in Sources */,
+				D7520458252A1BC900EC18B1 /* DesignButton.swift in Sources */,
+				D7ECC1272534FA1C00F50E10 /* View.swift in Sources */,
+				D7520460252A1FB300EC18B1 /* TargetType.swift in Sources */,
+				D764D4B225347F29004A5C32 /* DataModel.swift in Sources */,
+				D714156C2539235700E12FF4 /* MenuHomeVC.swift in Sources */,
+				D74FEAA225407E860056FB7D /* CartPresnter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,10 +610,12 @@
 		};
 		D7FCB2DA2529CAEA005D93A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF56E0B4EC809F6F9167C65D /* Pods-RestaurantAPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RestaurantAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,10 +629,12 @@
 		};
 		D7FCB2DB2529CAEA005D93A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17EBDD2D03C51037F4BDE7F4 /* Pods-RestaurantAPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RestaurantAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
